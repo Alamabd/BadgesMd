@@ -18,7 +18,7 @@ route.get("/txt", (req, res) => {
             </svg>
         `);
     } else {
-        res.status(404).send(`
+        res.status(200).send(`
         <svg xmlns="http://www.w3.org/2000/svg" height="20" width="${parseInt(wl) + parseInt(wr)}">
             <g>
                 <rect width="45" height="20" fill="#555" rx="4" />
